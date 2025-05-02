@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
-    success_message = None  
+    success_message = None      
     submitted_message = None 
     error = None          
      
