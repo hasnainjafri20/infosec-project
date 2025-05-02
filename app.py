@@ -7,7 +7,7 @@ def index():
     success_message = None  
     submitted_message = None 
     error = None          
-
+     
     if request.method == 'POST':
         user_message = request.form.get('message')
 
